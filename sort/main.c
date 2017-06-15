@@ -30,8 +30,6 @@ int main()
     n=0;
     k=0;
     
-    printf("请输入任意10个数字：\n");
-    
     for(i=0;i<10;i++)
     {
         fscanf(fr,"%d",&a[i]);
