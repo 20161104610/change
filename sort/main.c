@@ -68,4 +68,8 @@ int main()
     
     printf("\n");
     
+    fclose(fr);
+    fclose(fw);
+    
+    return 0;
 }
