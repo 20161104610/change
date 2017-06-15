@@ -23,6 +23,10 @@ int main()
     
     fr=fopen("/Users/a201611046101/Desktop/sort/sort.txt","r+");
     fw=fopen("/Users/a201611046101/Desktop/sort/output.txt","w");
+    if(fr==NULL)
+    {
+        printf("打开失败！文件为空\n");
+    }
 
     i=0;
     j=0;
