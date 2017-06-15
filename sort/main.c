@@ -35,7 +35,6 @@ int main()
     for(i=0;i<10;i++)
     {
         fscanf(fr,"%d",&a[i]);
-        //fprintf(fr,"%d ",a[i]);
     }
     
     for(i=0;i<10;i++)
